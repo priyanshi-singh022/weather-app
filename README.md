@@ -2,7 +2,7 @@
 
 Odin Project JavaScript weather app. Search any location, toggle °C/°F, and the
 page theme changes with the current conditions.
-
+App Live: [Live](https://priyanshi-singh022.github.io/weather-app/)
 Weather data: [Visual Crossing Weather API](https://www.visualcrossing.com/weather-api/)
 
 ## Run
