@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+  <body data-theme="default">
+    <main>
+      <h1>Weather</h1>
+      <form id="search-form">
+        <input id="location" type="text" placeholder="Search a city…" required />
+        <button type="submit">Search</button>
+        <button type="button" id="unit-toggle" title="Toggle units">°C</button>
+      </form>
+      <div id="loading" hidden><div class="spinner"></div>Loading…</div>
+      <p id="error" hidden></p>
+      <section id="weather" hidden>
+        <h2 id="place"></h2>
+        <div class="current">
+          <div id="icon" class="icon"></div>
+          <div id="temp" class="temp"></div>
+        </div>
+        <p id="conditions"></p>
+        <p id="description" class="muted"></p>
+        <ul class="stats">
+          <li>Feels like <strong id="feels"></strong></li>
+          <li>Humidity <strong id="humidity"></strong></li>
+          <li>Wind <strong id="wind"></strong></li>
+        </ul>
+        <div id="forecast" class="forecast"></div>
+      </section>
+    </main>
+    <footer>Weather data by <a href="https://www.visualcrossing.com/" target="_blank" rel="noreferrer">Visual Crossing</a></footer>
+  </body>
+</html>
